@@ -8,9 +8,9 @@ let listaTareas = [];
 
 function agregarTarea(indicador, descripcion, estado) {
   let nuevaTarea = {
-    indicador,
-    descripcion,
-    estado
+    indicador: indicador,
+    descripcion: descripcion,
+    estado: estado
   }
 
   listaTareas.push(nuevaTarea)
