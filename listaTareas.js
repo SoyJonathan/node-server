@@ -36,10 +36,9 @@ function iniciarPrograma() {
         1: Añadir tarea
         2: Eliminar tarea
         3: Completar tarea
-        salir: Finalizar progarama
+        4: Finalizar programa
 ====>`, (opcion) => {
-    opcion = opcion.trim().toLowerCase();
-
+    
       switch (opcion) {
       case '1':
          console.log('-- Añadir tarea --')
@@ -69,7 +68,7 @@ function iniciarPrograma() {
              iniciarPrograma();
              });
       break
-       case 'salir':
+       case '4':
             readline.close()
       break;
       default:
